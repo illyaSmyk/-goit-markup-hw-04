@@ -1,0 +1,306 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --primary-text-color: #434455;
+    --secondary-text-color: #2e2f42;
+    --body-background-color: #ffffff;
+    --primary-accent-color: #fd9222;
+    --secondary-accent-color: #fcf1e0;
+    --section-bg-color: #f4f4fd;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    }
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    }
+button {cursor: pointer;}
+img {display: block;}
+address {font-style: normal;}
+
+body {
+font-family: var(--primary-font); 
+color: var(--primary-text-color);
+background-color: var(--body-background-color);
+max-width: 1440px;
+margin: auto;
+}
+
+main {flex-grow: 1;}
+
+.visually-hidden {
+position: absolute;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+width: 1px;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;}
+
+            /* ========HEADER=========== */
+.page-header {
+margin: auto;
+border-bottom: 1px solid #e7e9fc;
+}
+.page-header .container {
+display: flex;
+align-items: center; 
+justify-content: space-between; }
+
+.page-nav {
+display: flex;
+align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+    color: #4d5ae5;
+} 
+    .logo-link .highlight {color: #2e2f42;}
+    .logo-link .highlight:hover {color: #404bbf;}
+
+.page-menu {
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    }
+                
+.page-menu-link {
+    display: inline-block;
+    padding: 24px 0;
+} 
+
+.page-menu-link:hover,
+.page-menu-link:focus {color: var(--primary-accent-color);}
+
+.address-list {
+display:flex;
+gap: 40px;
+}      
+
+.address-link:hover,
+.address-link:focus {color: var(--primary-accent-color);}
+
+/*=============================HERO=====================*/
+.hero-section 
+{
+    margin: auto;
+    background-color: #2e2f42;
+    padding: 188px 0;
+    background-color: #2e2f42;
+    color: #ffffff;
+}
+.hero-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main-title {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+} 
+/* Кнопка */
+.button:hover, 
+.button:focus {color:var(--primary-accent-color)}
+
+.button 
+{
+    min-width: 169px;
+    padding: 16px 32px;
+    font-weight: 500;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+/* =====================SECTION PHILOSOPHY ==============*/
+.strategy-section {
+    padding: 120px 0;
+}
+
+.strategy-list {
+    display:flex;
+    padding: 0;
+    align-items: center;
+    gap: 24px;
+        }
+
+.strategy-list-item {
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+.strategy-list-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em ;
+                    }
+.strategy-list-text {
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;}
+
+/*========================TEAM SECTION===================*/
+
+.team-section {
+margin: auto;
+max-width: 1440px;
+padding: 120px 0;
+background-color:var(--section-bg-color);}
+
+.team-section .container {
+display: flex;
+flex-direction: column;
+width: 1440px;
+}
+
+.ul_section_team {  
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 24px;
+}
+.name-vacation {
+text-align: center;
+padding: 32px 0; }
+.cards {
+background-color: #FFFFFF; 
+width: 264px;
+border-radius: 0px 0px 4px 4px;}
+
+
+.people-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:var(--secondary-text-color);
+        margin-bottom: 8px; }
+
+/* =======================SECTION PORTFOLIO=============*/
+.portfolio {
+padding-bottom: 120px;
+margin: auto;
+padding-top: 120px;
+}
+.portfolio-list {
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin: 0;
+    padding: 0;
+    }
+
+.portfolio-list-item {
+width: calc((100% - 48px) / 3);
+}
+.portfolio-list li {
+width: 360px;}
+
+.portfolio-list li:nth-child(3n) {
+margin-right: 0;}
+.portfolio-list li:nth-last-child(-n+3) {
+margin-bottom: 0;
+}
+.name-of-item {
+    padding: 32px 16px ;
+    flex-direction: column;
+    text-align: start;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    }
+
+.portfolio-subtitle {margin-bottom: 8px;} 
+
+
+/* =======================FOOTER=======================*/
+
+.page-footer {
+background-color: #2e2f42;
+max-width: 1440px;
+margin: auto;
+padding: 100px 0;
+}
+
+.logo_linkblue {
+display: inline-block;
+margin-bottom: 16px;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+line-height: 1.17;
+color: #4d5ae5;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 18px;
+}
+
+.footertext {
+    max-width: 289px;
+    color: #ffffff;
+    margin-right: auto;
+}
+
+a.logo_linkblue {
+text-decoration: none;
+}
+.white {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #F4F4FD;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.no-hover {color: inherit; }
+.white:hover {color: #404bbf;}
