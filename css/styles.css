@@ -230,9 +230,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;}
 
-.strategy-icon {
-    width: 64px; height: 64px;
-}
+
 /*========================TEAM SECTION===================*/
 .team-section {
 margin: auto;
@@ -294,8 +292,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .social-list-link:hover,
 .social-list-link:focus {background-color: var(--primary-accent-color);}
 .social-list-icon {
-    width: 16px;
-    height: 16px;
     fill: var(--section-bg-color);
 }
 
