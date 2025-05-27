@@ -380,12 +380,12 @@ display: block;
 width: 100%;
 height: auto;
 }
-.port-box:hover .box-overlay {
+.img-overlay:hover .box-overlay {
 transform: translateY(0);}
 
 .text-overlay {
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--section-bg-color);
     padding: 40px 32px;
     background-color: #4d5ae5;
