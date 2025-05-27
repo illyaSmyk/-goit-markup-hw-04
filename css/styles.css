@@ -358,7 +358,7 @@ margin-bottom: 0;
 
 .portfolio-subtitle {margin-bottom: 8px;} 
 
-.box-overlay {
+.box-overlay { 
 position: absolute;
 top: 0;
 left: 0;
@@ -375,15 +375,13 @@ position: relative;
 width: 100%;
 overflow: hidden;}
 
-.img-overlay img {
-display: block;
-width: 100%;
-height: auto;
-}
 .img-overlay:hover .box-overlay {
 transform: translateY(0);}
 
 .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--section-bg-color);
