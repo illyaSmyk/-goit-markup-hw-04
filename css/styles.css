@@ -359,6 +359,7 @@ color: var(--section-bg-color);
 padding: 40px 32px;
 overflow: auto;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 
 .portfolio-list-item:hover .overlay {transform: translateY(0%);}
