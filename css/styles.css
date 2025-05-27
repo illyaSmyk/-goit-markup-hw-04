@@ -30,8 +30,6 @@ body {
 font-family: var(--primary-font); 
 color: var(--primary-text-color);
 background-color: var(--body-background-color);
-max-width: 1440px;
-margin: auto;
 }
 
 main {flex-grow: 1;}
@@ -239,12 +237,12 @@ text-align: left;}
 .team-section {
 margin: auto;
 padding: 120px 0;
-background-color:var(--section-bg-color);}
+background-color:var(--section-bg-color);
+max-width: 1440px;}
 
 .team-section .container {
 display: flex;
 flex-direction: column;
-width: 1440px;
 }
 
 .ul_section_team {  
